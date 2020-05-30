@@ -7,9 +7,9 @@ def list(length, max):
     return list
 
 def DialogList():
-    print("Длина списка:")
+    print("Введите значение для длины списка:")
     length = int(input())
-    print("Максимальное значение:")
+    print("Введите значение, которое будет максимальным:")
     max = int(input())
 
     print(list(length, max))
